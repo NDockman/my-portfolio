@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
@@ -28,12 +29,24 @@ header nav ul li {
 }
 
 main {
-    background-color: aquamarine;
+    background-color: rgb(200, 207, 205);
 }
 
 main section {
+    border: 1px solid red;
+    margin: 3px;
     display: flex;
     flex-flow: row wrap;
+}
+
+main section div {
+    border: 1px solid rgb(77, 255, 0);
+    margin: 10px;
+    padding: 5px;
+}
+
+main section div figure {
+    width: 10%;
 }
 
 figure img {
