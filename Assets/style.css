@@ -42,10 +42,14 @@ main section {
     margin: 3px;
 }
 
+main .my-bio {
+    font-size: 16px;
+}
+
 main .apps {
     display: flex;
     flex-flow: row wrap;
-    justify-content: center;
+    justify-content: space-around;
 }
 
 main section div {
@@ -59,6 +63,37 @@ main section div {
     width: 10%;
 }*/
 
-figure img {
+main section div figure img {
     height: 100px;
+    width: 200px;
+}
+
+/* The first app must be larger */
+/* why will the size not change? */
+main .apps .app-one {
+    flex: 2 0 0;
+}
+
+/* The other apps should be the same size */
+main .apps .app-normal {
+    flex: 1 1 0;
+}
+
+main .contact-info {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+}
+
+/* How do I move the header to the left? */
+main .contact-info h2 {
+    align-self: flex-start;
+}
+
+main .contact-info nav ul {
+    list-style-type: none;
+}
+
+main .contact-info nav ul li {
+    display: inline-block;
 }
