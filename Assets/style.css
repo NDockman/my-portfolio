@@ -5,6 +5,7 @@
 
 header {
     background-color: #81adbf;
+    padding: 10px;
 }
 
 header h1 {
@@ -13,13 +14,15 @@ header h1 {
 }
 
 header nav {
-    padding-top: 15px;
+    padding-bottom: 30px;
     margin-right: 50px;
-    float: right;
+    display: flex;
+    justify-content: flex-end;
 }
 
 header nav ul {
     list-style-type: none;
+    margin-bottom: 32px;
 }
 
 header nav ul li {
@@ -30,24 +33,31 @@ header nav ul li {
 
 main {
     background-color: rgb(200, 207, 205);
+    margin-top: 10px;
+    padding: 10px;
 }
 
 main section {
     border: 1px solid red;
     margin: 3px;
+}
+
+main .apps {
     display: flex;
     flex-flow: row wrap;
+    justify-content: center;
 }
 
 main section div {
     border: 1px solid rgb(77, 255, 0);
     margin: 10px;
     padding: 5px;
+    /* width: 20%; */
 }
 
-main section div figure {
+/*main section div figure {
     width: 10%;
-}
+}*/
 
 figure img {
     height: 100px;
