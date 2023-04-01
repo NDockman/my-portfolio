@@ -6,4 +6,4 @@ My portfolio is broken up into a CSS stylesheet and a HTML file. The objective o
 
 https://ndockman.github.io/my-portfolio/
 
-![Screenshot of part of the webpage](./assets/images/my_portfolio_screenshot2023-03-31.png)
+![Screenshot of part of the webpage](./Assets/images/my_portfolio_screenshot2023-03-31.png)
