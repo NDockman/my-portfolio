@@ -6,23 +6,29 @@
 header {
     background-color: #81adbf;
     padding: 10px;
+    position: relative;
 }
 
 header h1 {
+    background-color: #D3914F;
     display: inline-block;
+    border-radius: 20%;
     font-size: 35px;
 }
 
 header nav {
     padding-bottom: 30px;
-    margin-right: 50px;
+    margin-right: 100px;
     display: flex;
     justify-content: flex-end;
 }
 
 header nav ul {
+    background-color: #D3914F;
+    border-radius: 20%;
     list-style-type: none;
     margin-bottom: 32px;
+    padding: 10px;
 }
 
 header nav ul li {
@@ -31,32 +37,29 @@ header nav ul li {
     font-size: 20px;
 }
 
+#avatar {
+    margin-top: 10px;
+    margin-left: 20%;
+    position: absolute;
+    width: 10%;
+}
+
 main {
-    background-color: rgb(200, 207, 205);
+    background-color: #D5DBDB;
     margin-top: 10px;
     padding: 10px;
 }
 
 main section {
-    border: 1px solid red;
-    margin: 3px;
-}
-
-main .my-bio {
-    font-size: 16px;
-}
-
-main .apps {
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-around;
+    border: 3px solid #81adbf;
+    margin: 20px;
 }
 
 main section div {
-    border: 1px solid rgb(77, 255, 0);
+    background-color: #D3914F;
+    border-radius: 7%;
     margin: 10px;
     padding: 5px;
-    /* width: 20%; */
 }
 
 /*main section div figure {
@@ -68,24 +71,74 @@ main section div figure img {
     width: 200px;
 }
 
+
+
+
+
+/* BIO SECTION */
+
+main .my-bio {
+    font-size: 16px;
+}
+
+
+
+
+
+/* WORK SECTION */
+
+#main-img {
+    width: 50%;
+    height: 50%;
+}
+
+main .apps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* justify-content: space-around; */
+}
+
 /* The first app must be larger */
-/* why will the size not change? */
 main .apps .app-one {
     flex: 2 0 0;
 }
 
+.row-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.row-section img {
+    height: 25%;
+    width: 75%;
+}
+
 /* The other apps should be the same size */
 main .apps .app-normal {
+    border: 3px solid #81adbf;
     flex: 1 1 0;
 }
+
+
+
+
+/* CONTACT INFO SECTION */
 
 main .contact-info {
     display: flex;
     flex-flow: row wrap;
+    /* justify-content: center; */
+}
+
+.contact-flex {
+    display: flex;
+    align-items: center;
     justify-content: center;
 }
 
-/* How do I move the header to the left? */
 main .contact-info h2 {
     align-self: flex-start;
 }
@@ -96,4 +149,8 @@ main .contact-info nav ul {
 
 main .contact-info nav ul li {
     display: inline-block;
+}
+
+footer {
+    margin-left: 40%;
 }

@@ -14,7 +14,7 @@
     <header>
 
         <h1>Noah Dockman</h1>
-        <img src="./assets/images/generic-avatar.png">
+        <img id="avatar" src="./assets/images/generic-avatar.png">
 
         <nav>
             <ul>
@@ -49,33 +49,44 @@
             <h2>Work</h2>
 
             <div class="app-one">
-                <h3>Application 1</h3>
+                <h3>Semantic HTML Assignment</h3>
                 <figure>
-                    <img src="./assets/images/social-media-marketing.jpg">
+                    <a href="https://ndockman.github.io/semantic-html/">
+                        <img id="main-img" src="./assets/images/semantic_html_webpage_screenshot2023-03-24.png">
+                    </a>
                 </figure>
             </div>
 
-            <div class="app-normal">
-                <h3>Application 2</h3>
-                <figure>
-                    <img src="./assets/images/search-engine-optimization.jpg">
-                </figure>
-            </div>
 
-            <div class="app-normal">
-                <h3>Application 3</h3>
-                <figure>
-                    <img src="./assets/images/online-reputation-management.jpg">
-                </figure>
-            </div>
+            <div class="row-section">
+                <div class="app-normal">
+                    <h3>Application 2</h3>
+                    <figure>
+                        <a href="https://www.google.com/">
+                            <img id="secondary-img" src="./assets/images/search-engine-optimization.jpg">
+                        </a>
+                    </figure>
+                </div>
 
-            <div class="app-normal">
-                <h3>Application 4</h3>
-                <figure>
-                    <img src="./assets/images/social-media-marketing.jpg">
-                </figure>
-            </div>
+                <div class="app-normal">
+                    <h3>Application 3</h3>
+                    <figure>
+                        <a href="https://www.google.com/">
+                            <img id="secondary-img" src="./assets/images/online-reputation-management.jpg">
+                        </a>
+                    </figure>
+                </div>
 
+                <div class="app-normal">
+                    <h3>Application 4</h3>
+                    <figure>
+                        <a href="https://www.google.com/">
+                            <img id="secondary-img" src="./assets/images/social-media-marketing.jpg">
+                        </a>
+                    </figure>
+                </div>
+            </div>
+            
         </section>
 
 
@@ -83,19 +94,21 @@
 
             <h2>Contact Info</h2>
     
-            <nav>
-                <ul>
-                    <li>
-                        <p>555-555-5555</p>
-                    </li>
-                    <li>
-                        <a href="mailto:noah@noah.com">noah@noah.com</a>
-                    </li>
-                    <li>
-                        <a href="http://github.com/NDockman" target="_blank">GitHub</a>
-                    </li>
-                </ul>
-            </nav>
+            <div class="contact-flex">
+                <nav>
+                    <ul>
+                        <li>
+                            <p>555-555-5555</p>
+                        </li>
+                        <li>
+                            <a href="mailto:noah@noah.com">noah@noah.com</a>
+                        </li>
+                        <li>
+                            <a href="http://github.com/NDockman" target="_blank">GitHub</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
     
         </section>
 
